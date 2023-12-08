@@ -38,36 +38,32 @@ while True:
     except Exception as e:
          print('\nPlease check your input!, Exception Occurred: {}. \n\nWe don\'t have that mathematical operation!!! \n\n'.format(e))
 
-    else: 
-        if maths_operation ==1:
-            def add():
-                pass
+    if maths_operation ==1:
+        def add():
+            pass
 
-        if maths_operation == 2:
-            def subtract():
-                pass
+    if maths_operation == 2:
+        def subtract():
+            pass
+    
+    if maths_operation ==3:
+        def multiply():
+            pass
+    
+    if maths_operation ==4:
+        def division():
+            pass
+    
+    if maths_operation ==5:
+        def power():
+            pass
         
-        if maths_operation ==3:
-            def multiply():
-                pass
-        
-        if maths_operation ==4:
-            def division():
-                pass
-        
-        if maths_operation ==5:
-            def power():
-                pass
-        
-        if maths_operation ==6:
-            def squre_root():
-                pass
+    if maths_operation ==6:
+        def squre_root():
+            pass
 
-        if maths_operation == 7:
-            break
-        
-        if maths_operation != (1,2,3,4,5,6,7):         
-            print("\nEnter a value from (1, 2, 3, 4, 5, 6, and 7) only")
+    if maths_operation == 7:
+        break
 
 print("\nThank you for using ZIYTECHS Program \n")
 

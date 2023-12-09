@@ -23,7 +23,6 @@ def subtract():     #This function subtract two numbers.
     num2 = eval(input("Enter the second number --> "))
     result = num1-num2
     print("\nHurray! ",num1, "-" ,num2 ,"=", result, "\n")  
-    #return result
 
 def multiply():     #This function multiplies two numbers. 
     num1 = eval(input("Enter the first number --> "))

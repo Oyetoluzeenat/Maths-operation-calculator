@@ -11,7 +11,7 @@ def get_values(): #Gets user operation option and input and store them as the fu
 
     while True:
         try:
-            maths_operation = int(input("What mathematical operation would you like to perform? \n press 1 for Addition \n press 2 for Subtraction \n press 3 for Multiplication \n press 4 for Division \n press 5 to quit the program \n\n"))
+            maths_operation = int(input("What mathematical operation would you like to perform? \n press 1 for Addition \n press 2 for Subtraction \n press 3 for Multiplication \n press 4 for Division \n press 5 to quit the program \n  -->  \n"))
             operations_list = ("an_Addition", "a_Subtraction", "a_Multiplication", "a_Division")
                 
         except Exception as e:
@@ -75,4 +75,5 @@ else:
 """
 Limitation of this program, If I Type a wrong option as text, it will show a proper error message, but if other wise, it will display weird error message.
 The more function currently runs twice, I need to write a while loop for  it to run as many times as possible.
+I also need to input logic for quit operation
 """

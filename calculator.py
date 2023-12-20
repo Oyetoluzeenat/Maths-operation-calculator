@@ -1,4 +1,4 @@
-import math
+from math import sqrt
 
 print ("\n****************  WELCOME TO ZIYTECHS CALCULATOR  **************** \n\n")
 print("Here are some mathematical operations you can perform: \n")
@@ -49,7 +49,7 @@ def power():     #This function compute the exponent of a number.
 
 def square_root():     #This function compute the square root of a number. 
     num = eval(input("Enter the number --> "))
-    result = round(math.sqrt(num),3)
+    result = round(sqrt(num),3)
     print("\nHurray! ", "The square root of ", num ,"=", result, "\n")  
 
 def maths_operation(): #Validate input and call the appropriate function to compute output
